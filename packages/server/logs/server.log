@@ -1,0 +1,93 @@
+2024-05-03 19:57:57 [INFO]: Starting Flowise...
+2024-05-03 19:57:57 [INFO]: ⚡️ [server]: Flowise Server is listening at 3000
+2024-05-03 19:57:57 [INFO]: 📦 [server]: Data Source is initializing...
+2024-05-03 19:57:59 [INFO]: 📦 [server]: Data Source has been initialized!
+2024-05-03 19:58:41 [INFO]: ❌ DELETE /api/v1/credentials/c1f6d752-52b5-474f-895c-d4e6ba3a6c68
+2024-05-03 19:58:43 [INFO]: ❌ DELETE /api/v1/credentials/0891940d-4861-4f4d-8eed-3a3ee697542b
+2024-05-03 19:58:45 [INFO]: ❌ DELETE /api/v1/credentials/62c5fa99-186f-4fc0-beee-36d04aaa03e8
+2024-05-03 19:58:47 [INFO]: ❌ DELETE /api/v1/credentials/01d54f58-38ae-43ce-8b11-c1b5bac9bc9e
+2024-05-03 19:58:49 [INFO]: ❌ DELETE /api/v1/credentials/3b3b2154-457e-4118-b508-e16f942afb24
+2024-05-03 19:58:51 [INFO]: ❌ DELETE /api/v1/credentials/ff881efd-2e9e-49ac-a4df-aa7fe56920fd
+2024-05-03 19:59:15 [INFO]: ⬆️ POST /api/v1/credentials
+2024-05-03 19:59:21 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2024-05-03 19:59:21 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2024-05-03 19:59:29 [INFO]: 🖊 PUT /api/v1/chatflows/4b3ee44c-6115-4ea5-ab4d-6aea470bae3a
+2024-05-03 19:59:36 [INFO]: ⬆️ POST /api/v1/internal-prediction/4b3ee44c-6115-4ea5-ab4d-6aea470bae3a
+2024-05-03 19:59:37 [ERROR]: OpenAI or Azure OpenAI API key not found
+Error: OpenAI or Azure OpenAI API key not found
+    at new ChatOpenAI (/Users/yzm/Code/flowise/Flowise/node_modules/.pnpm/@langchain+openai@0.0.28/node_modules/@langchain/openai/dist/chat_models.cjs:419:19)
+    at new ChatOpenAI (/Users/yzm/Code/flowise/Flowise/packages/components/dist/nodes/chatmodels/ChatOpenAI/FlowiseChatOpenAI.js:9:9)
+    at ChatOpenAI_ChatModels.init (/Users/yzm/Code/flowise/Flowise/packages/components/dist/nodes/chatmodels/ChatOpenAI/ChatOpenAI.js:196:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/Users/yzm/Code/flowise/Flowise/packages/server/dist/utils/index.js:404:36)
+    at async utilBuildChatflow (/Users/yzm/Code/flowise/Flowise/packages/server/dist/utils/buildChatflow.js:218:36)
+    at async createInternalPrediction (/Users/yzm/Code/flowise/Flowise/packages/server/dist/controllers/internal-predictions/index.js:7:29)
+2024-05-03 19:59:37 [ERROR]: [server]: Error: Error: OpenAI or Azure OpenAI API key not found
+Error: Error: OpenAI or Azure OpenAI API key not found
+    at buildFlow (/Users/yzm/Code/flowise/Flowise/packages/server/dist/utils/index.js:448:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async utilBuildChatflow (/Users/yzm/Code/flowise/Flowise/packages/server/dist/utils/buildChatflow.js:218:36)
+    at async createInternalPrediction (/Users/yzm/Code/flowise/Flowise/packages/server/dist/controllers/internal-predictions/index.js:7:29)
+2024-05-03 20:02:29 [INFO]: ⬆️ POST /api/v1/node-load-method/openAI
+2024-05-03 20:11:47 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI_LlamaIndex
+2024-05-03 20:12:21 [INFO]: ⬆️ POST /api/v1/chatflows
+2024-05-03 20:12:24 [INFO]: 🖊 PUT /api/v1/chatflows/56ff5ee0-b5e0-4f8a-9368-63b68a07a150
+2024-05-03 20:12:28 [INFO]: ⬆️ POST /api/v1/internal-prediction/56ff5ee0-b5e0-4f8a-9368-63b68a07a150
+2024-05-03 20:12:28 [INFO]: [server]: Chatflow 56ff5ee0-b5e0-4f8a-9368-63b68a07a150 added into ChatflowPool
+2024-05-03 20:12:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/56ff5ee0-b5e0-4f8a-9368-63b68a07a150
+2024-05-03 20:13:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/56ff5ee0-b5e0-4f8a-9368-63b68a07a150
+2024-05-05 01:35:00 [INFO]: Shutting down Flowise...
+2024-05-06 12:31:28 [INFO]: Starting Flowise...
+2024-05-06 12:31:28 [INFO]: ⚡️ [server]: Flowise Server is listening at 3000
+2024-05-06 12:31:28 [INFO]: 📦 [server]: Data Source is initializing...
+2024-05-06 12:31:30 [INFO]: 📦 [server]: Data Source has been initialized!
+2024-05-06 12:31:46 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI_LlamaIndex
+2024-05-06 12:31:46 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI_LlamaIndex
+2024-05-06 12:31:53 [INFO]: ⬆️ POST /api/v1/internal-prediction/56ff5ee0-b5e0-4f8a-9368-63b68a07a150
+2024-05-06 12:31:53 [INFO]: [server]: Chatflow 56ff5ee0-b5e0-4f8a-9368-63b68a07a150 added into ChatflowPool
+2024-05-06 14:40:39 [INFO]: ⬆️ POST /api/v1/chatflows
+2024-05-06 14:40:51 [INFO]: ⬆️ POST /api/v1/internal-prediction/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 14:40:51 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 added into ChatflowPool
+2024-05-06 14:41:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 14:41:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 14:41:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 14:49:36 [INFO]: 🖊 PUT /api/v1/chatflows/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 14:49:36 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 updated inSync=false in ChatflowPool
+2024-05-06 15:36:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 15:36:26 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 added into ChatflowPool
+2024-05-06 15:37:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 15:37:32 [INFO]: ⬆️ POST /api/v1/internal-prediction/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 15:37:49 [INFO]: 🖊 PUT /api/v1/chatflows/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 15:37:49 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 updated inSync=false in ChatflowPool
+2024-05-06 15:39:42 [INFO]: 🖊 PUT /api/v1/chatflows/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 15:39:42 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 updated inSync=false in ChatflowPool
+2024-05-06 15:39:49 [INFO]: ⬆️ POST /api/v1/prediction/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 15:39:49 [INFO]: [server]: Request originated from http://localhost:3000
+2024-05-06 15:39:49 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 added into ChatflowPool
+2024-05-06 15:40:09 [INFO]: ⬆️ POST /api/v1/prediction/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 15:40:09 [INFO]: [server]: Request originated from http://localhost:3000
+2024-05-06 15:40:09 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 added into ChatflowPool
+2024-05-06 15:40:34 [INFO]: 🖊 PUT /api/v1/chatflows/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-06 15:40:34 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 updated inSync=false in ChatflowPool
+2024-05-07 00:56:00 [INFO]: Shutting down Flowise...
+2024-05-09 11:25:26 [INFO]: Starting Flowise...
+2024-05-09 11:25:26 [INFO]: ⚡️ [server]: Flowise Server is listening at 3000
+2024-05-09 11:25:26 [INFO]: 📦 [server]: Data Source is initializing...
+2024-05-09 11:25:28 [INFO]: 📦 [server]: Data Source has been initialized!
+2024-05-09 11:26:18 [INFO]: ⬆️ POST /api/v1/internal-prediction/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-09 11:26:18 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 added into ChatflowPool
+2024-05-09 11:26:44 [INFO]: 🖊 PUT /api/v1/chatflows/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-09 11:26:44 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 updated inSync=false in ChatflowPool
+2024-05-09 11:29:00 [INFO]: 🖊 PUT /api/v1/chatflows/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-09 11:29:00 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 updated inSync=false in ChatflowPool
+2024-05-09 11:29:04 [INFO]: 🖊 PUT /api/v1/chatflows/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-09 11:29:04 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 updated inSync=false in ChatflowPool
+2024-05-09 11:30:38 [INFO]: 🖊 PUT /api/v1/chatflows/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-09 11:30:38 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 updated inSync=false in ChatflowPool
+2024-05-09 11:30:54 [INFO]: 🖊 PUT /api/v1/chatflows/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-09 11:30:54 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 updated inSync=false in ChatflowPool
+2024-05-09 11:32:22 [INFO]: ⬆️ POST /api/v1/feedback/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-09 11:32:24 [INFO]: 🖊 PUT /api/v1/feedback/cd61a929-b98b-4987-ae4b-e881e2fb375a
+2024-05-09 11:32:30 [INFO]: 🖊 PUT /api/v1/chatflows/65e81c3b-16da-43e3-89a1-d993b65f7ca3
+2024-05-09 11:32:30 [INFO]: [server]: Chatflow 65e81c3b-16da-43e3-89a1-d993b65f7ca3 updated inSync=false in ChatflowPool
+2024-05-10 13:12:48 [INFO]: Shutting down Flowise...

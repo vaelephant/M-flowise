@@ -1,0 +1,15 @@
+2024-05-03 19:59:37 [ERROR]: OpenAI or Azure OpenAI API key not found
+Error: OpenAI or Azure OpenAI API key not found
+    at new ChatOpenAI (/Users/yzm/Code/flowise/Flowise/node_modules/.pnpm/@langchain+openai@0.0.28/node_modules/@langchain/openai/dist/chat_models.cjs:419:19)
+    at new ChatOpenAI (/Users/yzm/Code/flowise/Flowise/packages/components/dist/nodes/chatmodels/ChatOpenAI/FlowiseChatOpenAI.js:9:9)
+    at ChatOpenAI_ChatModels.init (/Users/yzm/Code/flowise/Flowise/packages/components/dist/nodes/chatmodels/ChatOpenAI/ChatOpenAI.js:196:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/Users/yzm/Code/flowise/Flowise/packages/server/dist/utils/index.js:404:36)
+    at async utilBuildChatflow (/Users/yzm/Code/flowise/Flowise/packages/server/dist/utils/buildChatflow.js:218:36)
+    at async createInternalPrediction (/Users/yzm/Code/flowise/Flowise/packages/server/dist/controllers/internal-predictions/index.js:7:29)
+2024-05-03 19:59:37 [ERROR]: [server]: Error: Error: OpenAI or Azure OpenAI API key not found
+Error: Error: OpenAI or Azure OpenAI API key not found
+    at buildFlow (/Users/yzm/Code/flowise/Flowise/packages/server/dist/utils/index.js:448:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async utilBuildChatflow (/Users/yzm/Code/flowise/Flowise/packages/server/dist/utils/buildChatflow.js:218:36)
+    at async createInternalPrediction (/Users/yzm/Code/flowise/Flowise/packages/server/dist/controllers/internal-predictions/index.js:7:29)
